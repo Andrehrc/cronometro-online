@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro Online</title>
+    <link rel="shortcut icon" href="assets/images/ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="title-pic"><img src="assets/images/clock.png" alt="clock"></div>
+        <h1 class="titulo">Cronômetr<span>Online</span></h1>
+    </header>
+    <div class="timer-area">
+        <div class="demo">00:00:00:000</div>
+        <button class="start" onclick="Start()">Start Timer</button>
+        <button class="stop hidden" onclick="Stop()">Stop Timer</button>
+        <button class="reset" onclick="Reset()">Reset</button>
+        <button class="marcar" onclick="Marcar()">Mark Time</button>
+        <div class="m1">Marcações:</div>
+        <div class="marcacoes"></div>
+        <button onclick="clean()" class="cleanmark">limpar marcações</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
