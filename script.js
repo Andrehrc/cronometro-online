@@ -26,6 +26,8 @@ function Reset(){
     clearInterval(show);
     demo.innerHTML = '00:00:00:000';
     ml = 31;
+    startButton.style.display = 'block'
+    stopButton.style.display = 'none'
 }
 startButton.addEventListener("click", toggleButton1);
 function toggleButton1(){
